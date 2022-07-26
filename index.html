@@ -1,36 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Letícia Amaral CV</title>
-  <link rel="stylesheet" href="style.css">
 
+  <!-- Google font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
   <main class="resume-contents">
+
     <section class="left-section">
-      <section class="left-section-contents">
+      <div class="left-section-content">
 
         <div class="profile">
-          <img src="img/profile-image.jpeg" alt="foto de perfil profissional" class="profile-image">
+          <img class="profile-image" src="img/profile-image.jpeg" alt="Profile image">
           <p class="name">Letícia Amaral</p>
-          <p class="profession">Desenvolvedora Web</p>
+          <p class="profession">Desenvovedora Web</p>
         </div>
 
         <div class="contact-info">
-          <p class="left-title">Contatos</p>
+          <p class="left-title">Contato</p>
           <ul>
-            <li><i class="fa fa-phone"></i>+55 (41) 9 1234-1234</li>
-            <li><i class="fa fa-envelope"></i>youremail@hotmail.com</li>
-            <li><i class="fa fa-globe"></i>www.linkedin.com</li>
-            <li><i class="fa fa-github"></i>hinale</li>
+            <li><i class="fa fa-phone"></i><a>+55 (41) 9 9860-6620</li>
+            <li><i class="fa fa-envelope"></i><a
+                href="mailto:leticiaamarallara@hotmail.com">leticiaamarallara@hotmail.com</a></li>
+            <li><i class="fa fa-globe"></i><a
+                href="https://www.linkedin.com/in/leticia-amaral-lara/">linkedin.com/in/leticia-amaral-lara</a></li>
+            <li><i class="fa fa-github"></i><a href="https://github.com/hinale">hinale</a></li>
           </ul>
         </div>
 
@@ -38,97 +49,139 @@
           <p class="left-title">Skills</p>
           <ul>
             <li>
-              <p>HTML e CSS</p>
+              <p>Python3, Django</p>
             </li>
             <li>
-              <p>Git e Github</p>
+              <p>JavaScript, NodeJS</p>
             </li>
             <li>
-              <p>Python e Django</p>
+              <p>HTML5 & CSS3</p>
             </li>
             <li>
-              <p>Javascript e NodeJS</p>
+              <p>SQL, Postgres, MySQL</p>
+            </li>
+            <li>
+              <p>Git & GitHub</p>
+            </li>
+            <li>
+              <p>Linux, Bash/Shell</p>
             </li>
           </ul>
         </div>
 
-      </section>
+      </div>
     </section>
 
     <section class="right-section">
       <div class="right-section-contents">
 
+        <!-- sobre mim -->
         <section class="about gap">
-          <div class="right-title">Sobre mim</div>
+          <div class="right-title">Sobre Mim</div>
           <p class="about-me-contents">
-            Olá, eu sou Letícia Amaral.<br>
-            <br>Um pouco mais sobre mim.
-            <br>Quais são minhas competências.
+            Olá sou a Letícia.<br>
+            <br> Eu sou estágiaria na empresa KOUD desenvolvendo sites web, estando tanto na parte front-end quanto na
+            parte back-end.
+            <br> Minhas linguagens principais de programação são Python e JavaScript.
           </p>
         </section>
+        <!-- fim sobre mim -->
 
+        <!-- experiencia -->
         <section class="experience gap">
-          <div class="right-title">Experiência</div>
+          <div class="right-title">Experiencia</div>
 
           <div class="experience-contents">
-
             <div class="exp-left">
-              <p class="exp-company-name">Empresa 01</p>
-              <p class="exp-time-period">Início-Fim</p>
+              <p class="exp-company-name">KOUD</p>
+              <p class="exp-time-period">2022-Atualmente</p>
             </div>
-
             <div class="exp-right">
-              <p class="exp-position">Cargo</p>
-              <p class="exp-description">Descrição das principais fuções e atividades</p>
+              <p class="exp-position">Estagiário de Desenvolvimento Web</p>
+              <p class="exp-desc">
+                Construção de site com HTML, CSS, JavaScript, NodeJS. Manipulação de banco de dados com Sequelize.
+              </p>
             </div>
-
-            <div class="exp-left">
-              <p class="exp-company-name">Empresa 01</p>
-              <p class="exp-time-period">Início-Fim</p>
-            </div>
-
-            <div class="exp-right">
-              <p class="exp-position">Cargo</p>
-              <p class="exp-description">Descrição das principais fuções e atividades</p>
-            </div>
-
           </div>
 
         </section>
+        <!-- fim experiencia -->
 
-        <section class="education gap">
-          <div class="right-title">Formação Acadêmica</div>
+        <!-- cursos -->
+        <section class="awards gap">
+          <div class="right-title">Cursos</div>
 
-          <div class="education-contents">
-
-            <div class="education-left">
-              <p class="education-school-name">Escola 01</p>
-              <p class="education-time-period">Início-Fim</p>
+          <div class="awards-contents">
+            <div class="awards-left">
+              <p class="awards-company-name">WoMakersCode & Juntos Somos Mais</p>
+              <p class="awards-time-period">Março/2022 - Até o momento</p>
             </div>
-
-            <div class="education-right">
-              <p class="education-subject">Curso</p>
-              <p class="education-desc">Descrição das principais fuções e atividades</p>
+            <div class="awards-right">
+              <p class="awards-name">Programa ConstruDelas</p>
+              <p class="awards-desc">
+                Lógica de programação, HTML, CSS, Fundamentos de Python, Banco de Dados, Django, Git e
+                Metodologias Ágeis.
+              </p>
             </div>
+          </div>
 
-            <div class="education-left">
-              <p class="education-school-name">Escola 01</p>
-              <p class="education-time-period">Início-Fim</p>
+          <div class="awards-contents">
+            <div class="awards-left">
+              <p class="awards-company-name">Devs4fun</p>
+              <p class="awards-time-period">Agosto/2021 - Dezembro/2021</p>
             </div>
-
-            <div class="education-right">
-              <p class="education-subject">Curso</p>
-              <p class="education-desc">Descrição das principais fuções e atividades</p>
+            <div class="awards-right">
+              <p class="awards-desc">
+                Javascript básico, HTML, CSS, Git.
+              </p>
             </div>
+          </div>
 
+          <div class="awards-contents">
+            <div class="awards-left">
+              <p class="awards-company-name">Gama Academy & Juntos Somos Mais</p>
+              <p class="awards-time-period">Setembro/2021 - Dezembro/2021</p>
+            </div>
+            <div class="awards-right">
+              <p class="awards-name">Programa ConstruDelas</p>
+              <p class="awards-desc">
+                Lógica de programação, HTML, CSS, Fundamentos de C#, Git e Metodologias Ágeis
+              </p>
+            </div>
+          </div>
+
+          <div class="awards-contents">
+            <div class="awards-left">
+              <p class="awards-company-name">NewXinformática</p>
+              <p class="awards-time-period">Março/2017- Setembro/2017</p>
+            </div>
+            <div class="awards-right">
+              <p class="awards-name">Informática Básica</p>
+              <p class="awards-desc">
+                Word básico, Powerpoint básico, Excel Avançado, Access básico, Windows básico, Internet
+                e Digitação.
+              </p>
+            </div>
+          </div>
+
+          <div class="awards-contents">
+            <div class="awards-left">
+              <p class="awards-company-name">WoMakersCode</p>
+              <p class="awards-time-period">Julho/2022 - 3 Horas</p>
+            </div>
+            <div class="awards-right">
+              <p class="awards-name">Introdução à Cloud Computig & Fundamentos Azure</p>
+              <p class="awards-desc">
+                Introdução as ferramentas do Azure, contas e funcionalidades de Cloud Computing.
+              </p>
+            </div>
           </div>
 
         </section>
-
+        <!-- fim cursos -->
       </div>
     </section>
   </main>
-
 </body>
 
 </html>
